@@ -14,4 +14,6 @@ class BASICSHOOTER_API ABasicShooterGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	
+public:
+	ABasicShooterGameModeBase(const FObjectInitializer& ObjectInitializer);
 };
